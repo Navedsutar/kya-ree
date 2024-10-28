@@ -1,0 +1,5 @@
+#to build
+docker build -t myflask .
+
+#to run
+docker run -p 5010:5010 myflask
